@@ -2,8 +2,55 @@ header, main, footer {
 	padding-left: 300px;
 }
 
+main {
+	margin-top: -10px
+}
+
+.fixed-navicon {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  font-size: 48px;
+}
+
 @media only screen and (max-width : 992px) {
 	header, main, footer {
-		padding-left: 0;
+		padding-left: 10px;
+		padding-top: 10px;
 	}
+
+	.material-icons {
+		font-size: 32px;
+		margin-left: 0px;
+	}
+}
+
+.sidenav {
+	width: 300px;
+	background-color: #212121;
+}
+
+.email {
+	color: #bdbdbd;
+}
+
+.side-link a {
+	color: #bdbdbd !important;
+}
+
+.side-link .link-text:hover .fa:before{
+	color: white !important;
+}
+
+.side-link:hover, .side-link .link-text:hover{
+	background-color: #3e948c;
+	color: white !important;
+}
+
+.icon {
+	color: #bdbdbd !important;
+}
+
+.icon:hover {
+	color: white !important;
 }
