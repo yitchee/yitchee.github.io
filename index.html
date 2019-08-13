@@ -21,7 +21,7 @@
 					<br>
 					<div class="user-view">
 						<a href="index.html"><span class="white-text name"><h4>Yit Chee Chin</h4></span>
-						<span class="email"><h6>Computer Science Graduate</h6></span></a>
+						<span id="current-position"><h6>Computer Science Graduate</h6></span></a>
 					</div>
 				</li>
 				<br><br>
@@ -29,6 +29,14 @@
 				<li class="side-link"><a href="#skills" class="link-text">Skills<i class="icon fa fa-code"></i></a></li>
 				<li class="side-link"><a href="#projects" class="link-text">Projects<i class="icon fa fa-folder"></i></a></li>
 				<li class="side-link"><a href="#contact" class="link-text">Contact<i class="icon fa fa-envelope"></i></a></li>
+				<div class="side-link-footer center">
+					<a href="https://github.com/yitchee" target="_blank"><i class="icon fa fa-github fa-lg"></i></a>
+					<a href="https://www.linkedin.com/in/yitchee/" target="_blank"><i class="icon fa fa-linkedin fa-lg"></i></a>
+				</div>
+				<!-- <li class="side-link-footer center">
+					<a href="https://github.com/yitchee" target="_blank"><i class="icon fa fa-github fa-lg"></i></a>
+					<a href="https://www.linkedin.com/in/yitchee/" target="_blank"><i class="icon fa fa-linkedin fa-lg"></i></a>
+				</li> -->
 			</ul>
 		</div>
 	</header>
@@ -38,79 +46,122 @@
 				<a name="intro"></a>
 				<div class="row center">
 				  	<div class="col s12 light center header">
-					    <div id="about" class="sub-section">
-                  			<h4 class="header center-on-small-only">About Me</h4>
-                  			<p>I recently graduated from Technological University Dublin with a 2:1 BSc in Computer Science
-                  			<br><br>
-                  			Skills : Java | JavaScript | HTML5 | CSS3 | AngularJS | jQuery | D3 | Materialize CSS
-                  			<br>
-                  			Python | C | C++ </p>
-                		</div>
+						<div id="about" class="sub-section">
+				  			<h4 class="header center-on-small-only">About Me</h4>
+				  			<p>
+				  				I recently graduated from Technological University Dublin with a 2:1 BSc Honours in Computer Science.
+				  			</p>
+				  			<form method="get" target="_blank" action="files/YitCheeChin_Resume.pdf">
+                				<button type="submit" class="waves-effect waves-light btn">Download CV</button>
+            				</form>
+						</div>
 				  	</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="divider"></div>
+		<div class="divider teal darken-1"></div>
 
-		<div id="introduction" class="section">
+		<div id="skills" class="section">
 			<div class="container">
 				<a name="skills"></a>
 				<div class="row center">
 				  	<div class="col s12 light center header">
-					    <div id="about" class="sub-section">
-                  			<h4 class="header center-on-small-only">Skills</h4>
-                  			<p>I recently graduated from Technological University Dublin with a 2:1 BSc in Computer Science
-                  			<br><br>
-                  			Skills : JavaScript | HTML5 | CSS3 | AngularJS | jQuery | D3</p>
-                		</div>
+						<div id="about" class="sub-section">
+				  			<h4 class="header center-on-small-only">Skills</h4>
+				  			Skills I have developed through out the course of the degree and personal projects
+			  				<ul class="collapsible expandable">
+			  					<li>
+									<div class="collapsible-header"><i class="material-icons">code</i>Languages</div>
+									<div class="collapsible-body"><span>Java | Python | JavaScript | C | C++ | SQL | Kotlin | HTML5 | CSS3</span></div>
+								</li>
+								<li>
+									<div class="collapsible-header"><i class="material-icons">developer_mode</i>Technologies & Frameworks</div>
+									<div class="collapsible-body"><span>Git | Android Application Development | Linux | Oracle SQL | MongoDB | Google Cloud Platform | Microsoft Azure
+										<br>
+										Materialize CSS | OpenCV | Node.js | Flask | jQuery</span>
+									</div>
+								</li>
+								<li>
+									<div class="collapsible-header"><i class="material-icons">business_center</i>Other Skills</div>
+									<div class="collapsible-body"><span>Git | Android Application Development | Linux | Oracle SQL | MongoDB | Google Cloud Platform | Microsoft Azure</span></div>
+								</li>
+			  				</ul>
+						</div>
 				  	</div>
 				</div>
 			</div>
 		</div>
+			
+		<div class="divider teal darken-1"></div>
 
-		<div class="divider"></div>
-
-		<div id="introduction" class="section">
+		<div id="projects" class="section">
 			<div class="container">
 				<a name="projects"></a>
 				<div class="row center">
 				  	<div class="col s12 light center header">
-					    <div id="about" class="sub-section">
-                  			<h4 class="header center-on-small-only">Projects</h4>
-                  			<ul class="collapsible popout">
-                  			  <li>
-                  			    <div class="collapsible-header"><i class="material-icons">android</i>Driving Assistant for Android</div>
-                  			    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-                  			  </li>
-                  			  <li>
-                  			    <div class="collapsible-header"><i class="material-icons">attach_money</i>My Money</div>
-                  			    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-                  			  </li>
-                  			  <li>
-                  			    <div class="collapsible-header"><i class="material-icons">web</i>Forums Web App</div>
-                  			    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-                  			  </li>
-                  			</ul>
-                		</div>
+						<div id="about" class="sub-section">
+				  			<h4 class="header center-on-small-only">Projects</h4>
+				  			<ul class="collapsible popout">
+				  			  <li>
+				  				<div class="collapsible-header"><i class="material-icons">android</i>Driving Assistant for Android</div>
+				  				<div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+				  			  </li>
+				  			  <li>
+				  				<div class="collapsible-header"><i class="material-icons">attach_money</i>My Money</div>
+				  				<div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+				  			  </li>
+				  			  <li>
+				  				<div class="collapsible-header"><i class="material-icons">web</i>Forums Web App</div>
+				  				<div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+				  			  </li>
+				  			</ul>
+						</div>
 				  	</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="divider"></div>
+		<div class="divider teal darken-1"></div>
 
-		<div id="introduction" class="section">
+		<div id="contact" class="section">
 			<div class="container">
 				<a name="contact"></a>
 				<div class="row center">
 				  	<div class="col s12 light center header">
-					    <div id="about" class="sub-section">
-                  			<h4 class="header center-on-small-only">Contact</h4>
-                  			<p>I recently graduated from Technological University Dublin with a 2:1 BSc in Computer Science
-                  			<br><br>
-                  			Skills : JavaScript | HTML5 | CSS3 | AngularJS | jQuery | D3</p>
-                		</div>
+						<div id="about" class="sub-section">
+				  			<h4 class="header center-on-small-only">Contact</h4>
+				  			<div class="row">
+				  			    <form class="col s12" action="https://formspree.io/yitchee.chin@gmail.com" method="POST">
+				  			      	<div class="row">
+				  			        	<div class="input-field col s4">
+				  			          		<input id="first_name" type="text" class="validate" required>
+				  			          		<label for="first_name">Name</label>
+				  			        	</div>
+				  			        	<div class="input-field col s4">
+				  			          		<input id="email" type="email" class="validate" required>
+				  			          		<label for="email">Email</label>
+				  			        	</div>
+				  			        	<div class="row">
+				  			        		<div class="input-field col s4">
+				  			          			<input id="subject" type="text" class="validate" required>
+				  			          			<label for="subject">Subject</label>
+				  			        		</div>
+				  			      		</div>
+				  			      	</div>
+				  			      	<div class="row">
+				  			        	<div class="input-field col s12">
+				  			        	    <textarea id="message" class="materialize-textarea" required></textarea>
+				  			        	    <label for="message">Message</label>
+				  			        	</div>
+				  			      	</div>
+				  			      	<button class="btn waves-effect waves-light" type="submit" name="action">Submit
+				  			      		<i class="material-icons right">send</i>
+				  			      	</button>
+				  			    </form>
+				  			  </div>
+				  			<!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeycf_Nu4mrwkl7PoEl_jVMECAH_HPwf7PjFkaPyRIOVEzdKA/viewform?embedded=true" width="100%" height="891px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+						</div>
 				  	</div>
 				</div>
 			</div>
@@ -119,6 +170,7 @@
 	<footer>
 		
 	</footer>
+
 <!-- Scripts -->
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
