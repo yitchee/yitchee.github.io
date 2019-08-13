@@ -1,0 +1,103 @@
+html {
+	scroll-behavior: smooth;
+	background-color: #f2f2f2;
+}
+
+header, main, footer {
+	padding-left: 300px;
+}
+
+main {
+	margin-top: -10px
+}
+
+.fixed-navicon {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  font-size: 48px;
+}
+
+@media only screen and (max-width : 992px) {
+	header, main, footer {
+		padding-left: 10px;
+		padding-top: 10px;
+	}
+
+	.material-icons {
+		font-size: 32px;
+		margin-left: 0px;
+	}
+}
+
+.sidenav {
+	width: 300px;
+	background-color: #212121;
+}
+
+#current-position {
+	color: #bdbdbd;
+}
+
+.side-link a {
+	transition: background-color 0.5s, color 0.5s ;
+	color: #bdbdbd !important;
+}
+
+.side-link-footer {
+	position: fixed;
+	width: 100%;
+	top: 85%;
+}
+
+.side-link-footer a {
+	padding: 5px;
+	margin: 10px;
+}
+
+.side-link-footer a .fa:before {
+	color: white !important;
+}
+
+.fa{
+	transition: color 0.5s ;
+}
+
+.side-link .link-text:hover .fa:before{
+	transition: color 0.5s, background-color 0.5s ;
+	color: white !important;
+}
+
+.link-test i .icon::before {
+	transition: color 0.5s;
+}
+
+.side-link:hover, .side-link .link-text:hover{
+	background-color: #3e948c;
+	color: white !important;
+	transition: background-color 0.5s, color 0.5s;
+}
+
+.icon::before {
+	color: #bdbdbd !important;
+	transition: background-color 0.5s, color 0.5s ;
+}
+
+
+#projects .collapsible-header {
+	transition: background-color 0.5s ;
+	background-color: white;
+}
+
+#projects .collapsible-header:hover {
+	background-color: #ffd392;
+	transition: background-color 0.5s ;
+}
+
+#projects .collapsible-body {
+	background-color: white;
+}
+
+.btn {
+	background-color: #3e948c;
+}
