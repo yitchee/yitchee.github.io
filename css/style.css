@@ -58,6 +58,7 @@ main {
 
 .side-link-footer a .fa:before {
 	color: white !important;
+	font-size: 32px;
 }
 
 .fa{
@@ -91,7 +92,7 @@ main {
 }
 
 #projects .collapsible-header:hover {
-	background-color: #ffd392;
+	background-color: #ffdca8;
 	transition: background-color 0.5s ;
 }
 
@@ -115,4 +116,42 @@ main {
 
 .btn {
 	background-color: #3e948c;
+}
+
+.indicator-item {
+	background-color: grey !important;
+}
+
+.indicator-item.active {
+	background-color: #e6e6e6 !important;
+}
+
+.movePrevCarousel, .moveNextCarousel {
+	cursor: pointer;
+}
+
+.movePrevCarousel i, .moveNextCarousel i {
+	font-size: 40px;
+	cursor: pointer;
+}
+
+.tabs .tab a{
+	color: #a26dc2;
+} /*Black color to the text*/
+
+.tabs .tab a:hover {
+	color: #7B01C2;
+} /*Text color on hover*/
+
+.tabs .tab a.active {
+	color: #7B01C2;
+} /*Background and text color when a tab is active*/
+
+.tabs .indicator {
+	background-color: #a26dc2;
+} /*Color of underline*/
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+	background-color: #e6d7f5;
+	outline: none;
 }
