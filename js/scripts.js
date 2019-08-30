@@ -33,12 +33,7 @@ $('#projects .collapsible-header').click(function(){
 });
 
 $('#skills .collapsible-header').click( function(){
-	if ($(this).hasClass('light-blue lighten-2')) {
-		$(this).removeClass('light-blue lighten-2');
-	}
-	else {
-		$(this).addClass('light-blue lighten-2');
-	}
+	$(this).toggleClass('light-blue lighten-2');
 });
 
 // move next carousel
